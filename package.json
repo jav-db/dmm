@@ -1,0 +1,24 @@
+{
+	"name": "@av/dmm",
+	"description": "utilities for DMM",
+	"license": "MIT",
+	"version": "0.0.1",
+	"type": "module",
+	"files": [
+		"lib"
+	],
+	"types": "./lib/types.d.ts",
+	"exports": {
+		".": {
+			"node": "./lib/node.js",
+			"default": "./lib/index.js"
+		}
+	},
+	"scripts": {
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"@types/node": "^20.2.0",
+		"vite": "latest"
+	}
+}
