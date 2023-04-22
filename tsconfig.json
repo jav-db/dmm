@@ -10,9 +10,9 @@
 		"esModuleInterop": true,
 		"moduleResolution": "Node",
 		"useDefineForClassFields": true,
-		"lib": ["ESNext", "DOM"]
+		"lib": ["ESNext", "DOM", "DOM.Iterable"]
 	},
 	"include": [
-		"lib/**/*.d.ts"
+		"lib/*"
 	]
 }
